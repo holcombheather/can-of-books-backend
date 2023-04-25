@@ -9,7 +9,12 @@ const mongoose = require('mongoose');
 const Book = require('./models/book');
 
 const app = express();
+
+// MIDDLEWARE
 app.use(cors());
+
+// !! Don't forget to bring this in! -- body parser to bring in 
+app.use(express.json());
 
 const PORT = process.env.PORT || 3002;
 
@@ -37,6 +42,42 @@ app.get('/books', async (request, response, next) => {
     next(error);
   }
 });
+
+app.post('/books', postBook);
+
+async function postBook(request, response, next){
+  console.log(request.body);
+
+  try {
+    //TODO: take in the data that comes in on the request
+    let bookData = request.body;
+
+    //TODO: have my Model create the new instance of a book to my DB
+    let createdBook = await Book.create(bookData);
+
+    //TODO: send that on the response
+    response.status(200).send(createdBook);
+
+  } catch (error) {
+    next(error);
+  }
+}
+
+app.delete('/books/:bookID', deleteBook);
+
+async function deleteBook (request, response, next){
+  try {
+    // console.log(request.params);
+
+    let id = request.params.bookID;
+
+    await Book.findByIdAndDelete(id);
+
+    response.status(200).send('Book deleted!');
+  } catch (error) {
+    next(error);
+  }
+}
 
 app.get('/test', (request, response) => {
 
