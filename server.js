@@ -26,6 +26,16 @@ app.get('/', (request, response)=>{
   response.status(200).send('Welcome to my Can of Books server!');
 });
 
+app.get('/books', async (request, response, next) => {
+  try {
+    let allBooks = await Book.find({});
+
+    response.status(200).send(allBooks);
+  } catch (error) {
+    next(error);
+  }
+});
+
 app.get('/test', (request, response) => {
 
   response.send('test request received');
