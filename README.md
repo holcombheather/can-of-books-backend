@@ -43,7 +43,9 @@ For more a more detailed installation guide, click [here](getting-started.md).
 ***
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
+### Lab 11 WRRC
+![Web Request Response Diagram](assets/lab11_wrrc.png)
 
 ***
 
