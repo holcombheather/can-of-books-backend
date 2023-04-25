@@ -52,7 +52,7 @@ async function postBook(request, response, next){
     //TODO: take in the data that comes in on the request
     let bookData = request.body;
 
-    //TODO: have my Model create the new instance of a cat to my DB
+    //TODO: have my Model create the new instance of a book to my DB
     let createdBook = await Book.create(bookData);
 
     //TODO: send that on the response
