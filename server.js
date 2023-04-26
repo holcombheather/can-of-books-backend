@@ -79,6 +79,28 @@ async function deleteBook (request, response, next){
   }
 }
 
+app.put('/books/:bookID', updateCat);
+
+async function updateCat(request, response, next){
+  try {
+    //TODO: Grab the id from the request.params and data from the request.body
+    let id = request.params.bookID;
+    let bookData = request.body;
+
+    //TODO: use the Model method of findByIdandUpdate and pass the id, data, and options object
+    // ! 3 args
+    // ! id, data, options object -> { new: true, overwrite: true }
+
+    let updatedBook = await Book.findByIdAndUpdate(id, bookData, {new: true, overwrite: true });
+
+    //TODO: send on the response, the updated cat
+    response.status(200).send(updatedBook);
+
+  } catch (error) {
+    next(error);
+  }
+}
+
 app.get('/test', (request, response) => {
 
   response.send('test request received');
