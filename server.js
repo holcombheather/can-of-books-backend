@@ -93,7 +93,7 @@ async function updateCat(request, response, next){
 
     let updatedBook = await Book.findByIdAndUpdate(id, bookData, {new: true, overwrite: true });
 
-    //TODO: send on the response, the updated cat
+    //TODO: send on the response, the updated book
     response.status(200).send(updatedBook);
 
   } catch (error) {
