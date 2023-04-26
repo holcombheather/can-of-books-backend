@@ -2,7 +2,7 @@
 
 **Author**: Heather Holcomb & Juan Olmedo
 
-**Version**: 1.1.0 
+**Version**: 1.2.0 
 
 ***
 
@@ -68,6 +68,8 @@ For more a more detailed installation guide, click [here](getting-started.md).
 | 11 | 1. Set Up your React repo | 45 min | 2:30p | 3:42p | 1 hr 12 min |
 | 11 | 2. Storage | 2 hours | 3:42p | 5:22p | 1 hr 40m |
 | 11 | 3. Book Component | 2 hours | 5:22p | 9:58p | 2 hours* |
+| 12 | 1. Create Book | 2 hours | 2:00p | 7:10p | 4 hr |
+| 12 | 2. Delete Book | 2 hours | 2:25p | 8:22p | 1 hr 30m* |
 
 *This time includes reading technical documentation, revisiting reading materials, and rewatching lecture recordings but does not include time away from keyboard for responsibilities outside of class (i.e. dinner/bedtime with kids each day). 
 
