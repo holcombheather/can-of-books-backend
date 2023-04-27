@@ -2,7 +2,7 @@
 
 **Author**: Heather Holcomb & Juan Olmedo
 
-**Version**: 1.1.0 
+**Version**: 1.3.0 
 
 ***
 
@@ -10,8 +10,8 @@
 
 - [Deployed App](https://can-of-books-lab-11.netlify.app/)
 - [Deployed Server](https://can-of-books-backend-1g4p.onrender.com)
-- [Front End Repo](https://can-of-books-lab-11.netlify.app/)
-- [Back End Repo](https://can-of-books-backend-1g4p.onrender.com )
+- [Front End Repo](https://github.com/carlitos-1988/can-of-books-frontend)
+- [Back End Repo](https://github.com/holcombheather/can-of-books-backend)
 - [Trello Board](https://trello.com/b/Kh1btKiQ/can-of-books)
 - [Team Agreement](https://docs.google.com/document/d/16s3W6gLlgHNnYluvPjqSdJSIg6N7Uu-PuS4wnatdupk/edit#)
 
@@ -56,8 +56,8 @@ For more a more detailed installation guide, click [here](getting-started.md).
 | 04-24-2023 3:18pm | Proof of life indicator for backend |
 | 04-24-2023 6:22pm | Completed both backend and front end code and verified full app functionality locally |
 | 04-24-2023 9:58pm | Debugged issues for deployment and verified full funcitonality in production |
-| [DATE AND TIME] | [BRIEF SUMMARY OF CHANGES MADE] |
-| [DATE AND TIME] | [BRIEF SUMMARY OF CHANGES MADE] |
+| 04-25-2023 8:22pm | Validated full funcitonality for users to add and delete a book  |
+| 04-26-2023 7:23pm | Validated full funtionality for users to edit a book |
 | [DATE AND TIME] | [BRIEF SUMMARY OF CHANGES MADE] |
 
 ***
@@ -68,6 +68,9 @@ For more a more detailed installation guide, click [here](getting-started.md).
 | 11 | 1. Set Up your React repo | 45 min | 2:30p | 3:42p | 1 hr 12 min |
 | 11 | 2. Storage | 2 hours | 3:42p | 5:22p | 1 hr 40m |
 | 11 | 3. Book Component | 2 hours | 5:22p | 9:58p | 2 hours* |
+| 12 | 1. Create Book | 2 hours | 2:00p | 7:10p | 4 hr |
+| 12 | 2. Delete Book | 2 hours | 2:25p | 8:22p | 1 hr 30m* |
+| 13 | 1. Update Book | 3 hours | 12:15p | 7:23p | 4 hr 30m* |
 
 *This time includes reading technical documentation, revisiting reading materials, and rewatching lecture recordings but does not include time away from keyboard for responsibilities outside of class (i.e. dinner/bedtime with kids each day). 
 
@@ -79,3 +82,9 @@ For more a more detailed installation guide, click [here](getting-started.md).
 - [Class 11 Demo](https://github.com/codefellows/seattle-code-301d98/tree/main/class-11/inclass-demo/backend)
 - [Page Not Found Error on Netlify React Router Solved](https://dev.to/rajeshroyal/page-not-found-error-on-netlify-reactjs-react-router-solved-43oa)
 - [Official Netlify Docs: Redirects and rewrites](https://docs.netlify.com/routing/redirects/)
+
+### Lab 12
+- [Class 12 Demo](https://github.com/codefellows/seattle-code-301d98/tree/main/class-12/inclass-demo/backend)
+
+### Lab 13
+- [Class 11 Demo](https://github.com/codefellows/seattle-code-301d98/tree/main/class-13/inclass-demo/backend)
